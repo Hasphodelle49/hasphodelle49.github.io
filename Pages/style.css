@@ -1,4 +1,14 @@
 h1    /*c'est un commentaire en css*/
 {
-  color: blue;
+  color: green;
+}
+
+p
+{
+  font-size: large; /*là c'est un paragraphe de 14 pixels*/
+}
+
+body
+{
+  background-color: rgb(254,231,140);
 }
