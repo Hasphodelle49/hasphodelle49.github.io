@@ -6,10 +6,11 @@ h1    /*c'est un commentaire en css*/
 
 body
 {
-  background-color: rgb(blue);
+  background-color: rgb(black);
 }
 
-.navigation
+nav
 {
   color: black;
+  font-size: large;
 }
