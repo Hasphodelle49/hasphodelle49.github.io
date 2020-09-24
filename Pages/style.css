@@ -3,3 +3,13 @@ nav
   font-family: fantasy;
   font-size: x-large
 }
+
+body
+{
+  background-color: pink
+}
+
+h1
+{
+  color: green
+}
