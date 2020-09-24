@@ -1,16 +1,4 @@
-h1    /*c'est un commentaire en css*/
-{
-  color: green;
-}
-
-
-body
-{
-  background-color: rgb(black);
-}
-
 nav
 {
-  color: red
-  font-size: large;
+  font-size: x-large
 }
