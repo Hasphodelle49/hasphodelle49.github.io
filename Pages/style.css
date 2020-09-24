@@ -6,10 +6,10 @@ h1    /*c'est un commentaire en css*/
 
 body
 {
-  background-color: rgb(white);
+  background-color: rgb(yellow);
 }
 
-.navigation
+p
 {
   color: black;
 }
