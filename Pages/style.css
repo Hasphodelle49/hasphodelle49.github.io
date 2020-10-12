@@ -4,39 +4,47 @@ header
   color: purple;
   text-decoration: none;
   text-align: left;
+  display: inline-flex;
+  background-color: pink;
+
 }
 
 nav
 {
-  font-family: fantasy;
-  font-size: large;
-  text-decoration: none;
-  border: 3px;
-  display: flex;
-
+border-top: 6px black groove;
+border-bottom: 3px black double;
+text-align: center;
+font-size: large;
+font-family: monospace;
+display: flex;
+justify-content: space-around;
 }
 
 body
 {
   background-color: #E9D2C0;
-  border: 5px green groove;
 }
 
-p
+.corpspage
 {
+text-align: center;
+font-size: large;
+color: blue;
+border-bottom: 6px black dotted;
+}
 
-  width: 1000px;
-  margin: auto;
-  border: 1px solid black;
-  text-align: justify;
-  padding: 12px;
-  text-align: center;
+footer
+{
+text-align: center;
 }
 
 #Logo
 {
   width: auto;
+  align-items: center;
 }
+
+
 
 .titrearticle
 {
@@ -44,12 +52,4 @@ p
   color: green;
   text-decoration: underline;
   font-style: normal;
-}
-
-.tuesunparagrapheharry
-{
-  font-family:"Times New Roman";
-  color: red;
-  font-size: medium;
-  text-align: center;
 }
