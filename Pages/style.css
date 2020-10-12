@@ -3,7 +3,7 @@ header
   font-size: xx-large;
   color: purple;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 
 nav
@@ -11,29 +11,31 @@ nav
   font-family: fantasy;
   font-size: large;
   text-decoration: none;
-  border : 5px black groove;
+  border: 3px;
   display: flex;
 
 }
 
 body
 {
-  background-color: pink;
+  background-color: #E9D2C0;
   border: 5px green groove;
 }
 
 p
 {
 
-  width: 350px;
+  width: 1000px;
   margin: auto;
   border: 1px solid black;
   text-align: justify;
   padding: 12px;
   text-align: center;
+}
 
-
-
+#Logo
+{
+  width: auto;
 }
 
 .titrearticle
