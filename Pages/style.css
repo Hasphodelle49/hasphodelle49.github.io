@@ -1,17 +1,25 @@
+@font-face {
+  font-family: "Windsong";
+  src: url("Windsong.woff");
+}
+
+
+
 header
 {
+
   font-size: xx-large;
   color: purple;
   text-decoration: none;
   text-align: left;
-  display: inline-flex;
+  display: flex;
   background-color: pink;
-
+  border: 6px black groove;
 }
 
 nav
 {
-border-top: 6px black groove;
+
 border-bottom: 3px black double;
 text-align: center;
 font-size: large;
@@ -40,14 +48,15 @@ text-align: center;
 
 #Logo
 {
-  width: auto;
-  align-items: center;
+  width: 5px;
+
 }
 
 
 
 .titrearticle
 {
+  font-family: "Windsong";
   text-align: center;
   color: green;
   text-decoration: underline;
