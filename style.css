@@ -14,8 +14,8 @@
 }
 
 @font-face {
-      font-family: 'policedutitre3';
-      src: url('web_fonts/Windsong-webfont.woff') format('woff');
+      font-family: 'policesaloon';
+      src: url('web_fonts/Smokum-Regular-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
 }
@@ -27,17 +27,40 @@
       font-style: normal;
 }
 
+@font-face {
+      font-family: 'policeparagraphes';
+      src: url('web_fonts/underwood_champion-webfont.woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'policetitrepara';
+      src: url('web_fonts/Top_Secret-webfont.woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'policetitre42';
+      src: url('web_fonts/Impact_Label_Reversed-webfont.woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
 header
 {
-  font-family: 'policedutitre';
+  font-family: 'policetitre42';
   font-size: 50px;
-  color: white;
+  color: black;
   align-items: center;
   display: flex;
-  background-image: url('images/parquet2.png');
+  justify-content: space-around;
+  /*background-image: url('images/parquet2.png');*/
+  background-color: #FCE5F0;
   border: 6px black groove;
   box-shadow: 0px 10px 30px black;
-  margin: 3px
+  margin: 3px;
 }
 
 nav
@@ -45,7 +68,7 @@ nav
 color: brown;
 text-align: center;
 font-size: 30px;
-font-family: 'policedutitre4';
+font-family: 'policedutitre2';
 display: flex;
 justify-content: space-around;
 }
@@ -62,30 +85,20 @@ nav a:hover
 
 body
 {
-  background-color: #E9D2C0;
+  background-image: url('images/husky.png');
+  /*background-color: #E9D2C0;*/
 }
 
 footer
 {
-text-align: center;
-}
-
-.bandeaupage
-{
-  margin-top: 15px;
-  height: 200px;
-  border-radius: 5px;
-  background: url('images/applepen.png');
-  position: relative;
-  box-shadow: 0px 4px 4px #1c1a19;
-  margin-bottom: 25px;
-  align-items: center;
 
   text-align: center;
-  font-family: arial;
-  color: green;
-  text-decoration: underline;
-  font-style: normal;
+  color: red;
+
+  border: 6px black groove;
+  box-shadow: 0px 10px 30px black;
+  margin: 3px
+
 }
 
 .pageactuelle
@@ -95,8 +108,32 @@ text-align: center;
 
 .corpspage
 {
-text-align: center;
-font-size: large;
-color: blue;
-border-bottom: 6px black dotted;
+
+  height: 1000px;
+  border-radius: 10px;
+  border: black 2px solid;
+  /*background-color: #E9D2C0 ;*/
+  background-image: url('images/parchemin.jpg');
+  position: relative;
+  box-shadow: 0px 4px 4px #1c1a19;
+
+  margin: 25px 100px 25px 100px;
+
+  padding: 5px;
+
+  font-family: 'policeparagraphes';
+  text-align: center;
+  font-size: large;
+  color: #382815;
+
+}
+
+.titrepage
+{
+  text-align: center;
+  font-family: 'policetitrepara';
+  color: purple;
+  font-size: 50px;
+  text-decoration: underline;
+  font-style: normal;
 }
