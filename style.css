@@ -1,3 +1,4 @@
+
 @font-face {
       font-family: 'policedutitre';
       src: url('web_fonts/Alice-Regular-webfont.woff') format('woff');
@@ -48,21 +49,40 @@
       font-style: normal;
 }
 
+
+/**************************************HEADER******************************************/
 header
 {
-  font-family: 'policetitre42';
-  font-size: 50px;
-  text-shadow: 0px 3px 3px #E66A8F;
-  color: black;
   align-items: center;
   display: flex;
   justify-content: space-around;
-  /*background-image: url('images/parquet2.png');*/
+
   background-color: #FCE5F0;
   border: 6px black groove;
   box-shadow: 0px 10px 30px black;
   margin: 3px;
 }
+
+header h1
+{
+  font-family: 'policetitre42';
+  font-size: 100px;
+  text-shadow: 0px 3px 3px #E66A8F;
+  color: black;
+  text-decoration: none;
+
+}
+
+/*******************************BODY********************************************/
+
+body
+{
+  background-image: url('images/husky.png');
+  background-attachment: fixed;
+  /*background-color: #E9D2C0;*/
+}
+
+/******************************NAVIGATION***************************************/
 
 nav
 {
@@ -74,9 +94,10 @@ display: flex;
 justify-content: space-around;
 
 border: 0px black solid;
-margin-left: 180px;
-margin-right: 180px;
+margin-left: 10%;
+margin-right: 10%;
 box-shadow: 0px 6px 6px black;
+border-radius: 5px;
 }
 
 nav a
@@ -89,22 +110,39 @@ nav a:hover
   text-shadow: 0px 3px 3px white;
 }
 
-body
+h1
 {
-  background-image: url('images/rose.jpg');
-  /*background-color: #E9D2C0;*/
+  font-family: 'policedutitre';
+  color: purple;
+  font-size: 50px;
+  font-style: normal;
+  text-decoration: underline;
+  text-align: center;
 }
+
+h2
+{
+  text-align: left;
+  font-family: 'policedutitre';
+  color: black;
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+/*******************************************FOOTER************************************************/
 
 footer
 {
-
   text-align: center;
-  color: red;
-
+  background-color: #FCE5F0;
   border: 6px black groove;
   box-shadow: 0px 10px 30px black;
 }
 
+
+
+/**************************************CLASSES******************************************/
 .pageactuelle
 {
   color: red;
@@ -113,30 +151,62 @@ footer
 .corpspage
 {
 
-  height: 1000px;
+  height: auto;
   border-radius: 10px;
   border: black 2px solid;
   background-color: #FCE5E1;
   position: relative;
   box-shadow: 0px 4px 4px #1c1a19;
 
-  margin: 50px 100px 50px 100px;
+  margin: 2% 5% 2% 5%;
 
-  padding: 5px;
+  padding: 1%;
 
   font-family: 'policeparagraphes';
-  text-align: center;
   font-size: large;
   color: #382815;
 
 }
 
-.titrepage
+.corpspage a
+{
+  color: #BA57AA;
+}
+
+.corpspage a:hover
+{
+  text-shadow: 0px 3px 3px white;
+}
+
+.présentation
 {
   text-align: center;
-  font-family: 'policedutitre';
-  color: purple;
-  font-size: 50px;
-  font-style: normal;
-  text-decoration: underline;
+  border-bottom: black 5px dotted;
+  padding: 7px;
+}
+
+#labio
+{
+  text-align: left;
+}
+
+.bio
+{
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgpp
+{
+  border: black 7px groove;
+  width: 30em;
+  background-color: #FBECF3;
+}
+
+.whyweb
+{
+  border-top: black 5px dotted;
+  padding: 7px;
+  text-align: center;
 }
