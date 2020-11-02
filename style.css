@@ -86,7 +86,7 @@ body
 
 nav
 {
-color: brown;
+color: black;
 text-align: center;
 font-size: 30px;
 font-family: 'policedelien';
@@ -179,10 +179,20 @@ footer
   text-shadow: 0px 3px 3px white;
 }
 
-.présentation
+.lieninterpage
+{
+  font-family: 'policedelien';
+  font-size: 25px;
+
+  border-bottom: black 5px double;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introductionpage
 {
   text-align: center;
-  border-bottom: black 5px dotted;
+  border-bottom: black 5px double;
   padding: 7px;
 }
 
@@ -227,4 +237,30 @@ footer
   padding: 7px;
   text-align: center;
 
+}
+
+/******************************PAGE PROJETS HOBBYS**************************************/
+
+.Dessin
+{
+  border-bottom: black 5px dotted;
+  padding: 7px;
+}
+
+.Ecriture
+{
+  border-bottom: black 5px dotted;
+  padding: 7px;
+}
+
+.Photo
+{
+  border-bottom: black 5px dotted;
+  padding: 7px;
+}
+
+.Projets
+{
+  border-bottom: black 5px dotted;
+  padding: 7px;
 }
