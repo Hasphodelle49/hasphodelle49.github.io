@@ -49,6 +49,12 @@
       font-style: normal;
 }
 
+@font-face {
+      font-family: 'policehistoires';
+      src: url('web_fonts/UglyQua-webfont.woff');
+      font-weight: normal;
+      font-style: normal;
+}
 
 /**************************************HEADER******************************************/
 header
@@ -75,11 +81,11 @@ header h1
 
 /*******************************BODY********************************************/
 
-body
+.bruh
 {
   background-image: url('images/husky.png');
   background-attachment: fixed;
-  /*background-color: #E9D2C0;*/
+
 }
 
 /******************************NAVIGATION***************************************/
@@ -100,6 +106,11 @@ box-shadow: 0px 6px 6px black;
 border-radius: 5px;
 }
 
+nav a:hover
+{
+  text-shadow: 0px 3px 3px lime;
+}
+
 nav a
 {
   color: #0C290B;
@@ -107,15 +118,17 @@ nav a
 
 nav a:hover
 {
-  text-shadow: 0px 3px 3px white;
+  text-shadow: 0px 3px 3px g;
 }
+
+/*********************************CARACTERISTIQUES DES TITRES H*********************************************/
 
 h1
 {
   font-family: 'policedutitre';
   color: black;
   text-shadow: 0px 3px 3px #E66A8F;
-  font-size: 50px;
+  font-size: 3.5em;
   font-style: normal;
   text-decoration: none;
   text-align: center;
@@ -143,7 +156,7 @@ footer
 
 
 
-/**************************************CLASSES******************************************/
+/**************************************CLASSES TOUTES PAGES******************************************/
 .pageactuelle
 {
   color: red;
@@ -154,10 +167,9 @@ footer
 
   height: auto;
   border-radius: 10px;
-  border: black 2px solid;
   background-color: #FCE5E1;
   position: relative;
-  box-shadow: 0px 4px 4px #1c1a19;
+  box-shadow: 0px 5px 5px 5px #1c1a19;
 
   margin: 2% 5% 2% 5%;
 
@@ -210,6 +222,8 @@ footer
   padding-left: 2em;
 }
 
+/********************************ACCUEIL*******************************************/
+
 #labio
 {
   text-align: left;
@@ -228,7 +242,8 @@ footer
   border: black 7px groove;
   width: 30em;
   background-color: #FBECF3;
-}
+ }
+
 
 .whyweb
 {
@@ -247,20 +262,72 @@ footer
   padding: 7px;
 }
 
-.Ecriture
+.imgdessin
 {
-  border-bottom: black 5px dotted;
-  padding: 7px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imgdessin img
+{
+  border: white 7px groove;
+  margin: 10px;
+}
+
+.textebluebird
+{
+  text-align: left;
+}
+
+.textetrident
+{
+  text-align: left;
+}
+
+.bluebird
+{
+  text-align: center;
+  border: black 3px ridge;
+  box-shadow: 6px 6px 6px black;
+  margin: 5em;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+
+  font-family: 'policehistoires';
+  color: black;
+}
+
+
+.Trident
+{
+  text-align: center;
+  border: black 3px ridge;
+  box-shadow: 6px 6px 6px black;
+  margin: 5em;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+
+  font-family: 'policehistoires';
+  color: black;
 }
 
 .Photo
 {
-  border-bottom: black 5px dotted;
+  border-top: black 5px dotted;
   padding: 7px;
 }
 
 .Projets
 {
-  border-bottom: black 5px dotted;
+  border-top: black 5px dotted;
   padding: 7px;
 }
+
+/**********************************PAGE LECTURES*********************************************/
+
+
+
+/*************************************PAGE VOYAGES******************************************/
