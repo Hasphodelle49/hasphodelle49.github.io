@@ -4,7 +4,6 @@
       src: url('web_fonts/Alice-Regular-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
-
 }
 
 @font-face {
@@ -85,7 +84,6 @@ header h1
 {
   background-image: url('images/husky.png');
   background-attachment: fixed;
-
 }
 
 /******************************NAVIGATION***************************************/
@@ -229,6 +227,12 @@ footer
   text-align: left;
 }
 
+.warning
+{
+  border: red 7px groove;
+  background-color: #94ECF5;
+}
+
 .bio
 {
   margin: 5%;
@@ -242,8 +246,14 @@ footer
   border: black 7px groove;
   width: 30em;
   background-color: #FBECF3;
+  transform: scale(1);
+  transition-duration: 300ms;
  }
 
+.imgpp:hover
+{
+  transform: scale(0.70);
+}
 
 .whyweb
 {
