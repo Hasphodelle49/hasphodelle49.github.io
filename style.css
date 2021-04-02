@@ -14,8 +14,8 @@
 }
 
 @font-face {
-      font-family: 'policesaloon';
-      src: url('web_fonts/Smokum-Regular-webfont.woff') format('woff');
+      font-family: 'titrephotovideo';
+      src: url('web_fonts/Acme-Regular-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
 }
@@ -35,8 +35,8 @@
 }
 
 @font-face {
-      font-family: 'policetitrepara';
-      src: url('web_fonts/Top_Secret-webfont.woff');
+      font-family: 'Policedestextes';
+      src: url('web_fonts/RockfordSans-Light.woff');
       font-weight: normal;
       font-style: normal;
 }
@@ -119,7 +119,7 @@ nav a:hover
   text-shadow: 0px 3px 3px g;
 }
 
-/*********************************CARACTERISTIQUES DES TITRES H*********************************************/
+/*********************************CARACTERISTIQUES DES TITRES Trucs*********************************************/
 
 h1
 {
@@ -140,6 +140,11 @@ h2
   font-size: 40px;
   text-decoration: none;
   font-style: normal;
+}
+
+ul
+{
+  font-family: 'policeparagraphes';
 }
 
 /*******************************************FOOTER************************************************/
@@ -173,7 +178,7 @@ footer
 
   padding: 1%;
 
-  font-family: 'policeparagraphes';
+  font-family: 'Policedestextes';
   font-size: large;
   color: #382815;
 
@@ -277,6 +282,7 @@ footer
 display: flex;
 flex-direction: column;
 align-items: center;
+font-family: 'titrephotovideo';
 }
 
 .imgdessin img
@@ -334,6 +340,23 @@ align-items: center;
 {
   border-top: black 5px dotted;
   padding: 7px;
+}
+
+.videobluebird
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'titrephotovideo';
+  font-size: 150%;
+
+}
+.videobluebird video
+{
+  border: black 5px ridge;
+  border-radius: 10px;
+  margin : 2%;
 }
 
 /**********************************PAGE LECTURES*********************************************/
