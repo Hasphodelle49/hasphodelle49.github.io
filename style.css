@@ -225,7 +225,7 @@ footer
   padding-left: 2em;
 }
 
-/********************************ACCUEIL*******************************************/
+/********************************ACCUEIL************************************************************/
 
 #labio
 {
@@ -269,8 +269,9 @@ footer
 
 }
 
-/******************************PAGE PROJETS HOBBYS**************************************/
+/******************************PAGE PROJETS HOBBYS*****************************************************************/
 
+/******************************SECTION DESSINS***************************************/
 .Dessin
 {
   border-bottom: black 5px dotted;
@@ -280,9 +281,11 @@ footer
 .imgdessin
 {
 display: flex;
-flex-direction: column;
-align-items: center;
+flex-direction: wrap;
+justify-content: center;
 font-family: 'titrephotovideo';
+padding: 7px;
+margin: 10px;
 }
 
 .imgdessin img
@@ -290,6 +293,9 @@ font-family: 'titrephotovideo';
   border: white 7px groove;
   margin: 10px;
 }
+
+
+/*************************SECTION ECRITURE****************************************/
 
 .textebluebird
 {
@@ -306,10 +312,11 @@ font-family: 'titrephotovideo';
   text-align: center;
   border: black 3px ridge;
   box-shadow: 6px 6px 6px black;
-  margin: 5em;
-  padding: 1em;
+  margin: 3%;
+  padding: 1%;
   background-color: white;
   display: flex;
+  align-items: center;
 
   font-family: 'policehistoires';
   color: black;
@@ -321,8 +328,8 @@ font-family: 'titrephotovideo';
   text-align: center;
   border: black 3px ridge;
   box-shadow: 6px 6px 6px black;
-  margin: 5em;
-  padding: 1em;
+  margin: 3%;
+  padding: 1%;
   background-color: white;
   display: flex;
 
@@ -330,11 +337,29 @@ font-family: 'titrephotovideo';
   color: black;
 }
 
+.dessinshistoires
+{
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  font-family: 'titrephotovideo';
+}
+
+.dessinshistoires img
+{
+  border: white 7px groove;
+  margin: 10px;
+}
+
+/*****************************SECTION PHOTO***********************************/
+
 .Photo
 {
   border-top: black 5px dotted;
   padding: 7px;
 }
+
+/****************************SECTION PROJETS COMMUNS****************************/
 
 .Projets
 {
