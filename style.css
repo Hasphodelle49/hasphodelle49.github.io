@@ -286,6 +286,8 @@ justify-content: center;
 font-family: 'titrephotovideo';
 padding: 7px;
 margin: 10px;
+transform: scale(1);
+
 }
 
 .imgdessin img
@@ -294,6 +296,10 @@ margin: 10px;
   margin: 10px;
 }
 
+.imgdessin img:hover
+{
+
+}
 
 /*************************SECTION ECRITURE****************************************/
 
@@ -382,6 +388,13 @@ margin: 10px;
   border: black 5px ridge;
   border-radius: 10px;
   margin : 1%;
+}
+
+.celeste
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .musiquesjeu
