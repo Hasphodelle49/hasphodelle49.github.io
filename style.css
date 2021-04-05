@@ -162,7 +162,7 @@ footer
 /**************************************CLASSES TOUTES PAGES******************************************/
 .pageactuelle
 {
-  color: red;
+  color: #F02AE2;
 }
 
 .corpspage
@@ -294,6 +294,7 @@ transform: scale(1);
 {
   border: white 7px groove;
   margin: 10px;
+
 }
 
 .imgdessin img:hover
