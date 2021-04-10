@@ -281,7 +281,7 @@ footer
 .imgdessin
 {
 display: flex;
-flex-direction: wrap;
+flex-wrap: wrap;
 justify-content: center;
 font-family: 'titrephotovideo';
 padding: 7px;
@@ -347,7 +347,7 @@ transform: scale(1);
 .dessinshistoires
 {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   font-family: 'titrephotovideo';
 }
@@ -355,7 +355,7 @@ transform: scale(1);
 .dessinshistoires img
 {
   border: white 7px groove;
-  margin: 10px;
+  margin: 5px;
 }
 
 /*****************************SECTION PHOTO***********************************/
