@@ -112,11 +112,7 @@ nav a:hover
 nav a
 {
   color: #0C290B;
-}
-
-nav a:hover
-{
-  text-shadow: 0px 3px 3px g;
+  text-decoration: none;
 }
 
 /*********************************CARACTERISTIQUES DES TITRES Trucs*********************************************/
@@ -186,7 +182,8 @@ footer
 
 .corpspage a
 {
-  color: #BA57AA;
+  color: #C755EB;
+  text-decoration: none;
 }
 
 .corpspage a:hover
@@ -278,28 +275,25 @@ footer
   padding: 7px;
 }
 
-.imgdessin
+.dessinshistoires
 {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-font-family: 'titrephotovideo';
-padding: 7px;
-margin: 10px;
-transform: scale(1);
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'titrephotovideo';
 }
 
-.imgdessin img
+.dessinshistoires img
 {
   border: white 7px groove;
-  margin: 10px;
-
+  margin: 5px;
+  transform: scale(1);
+  transition-duration: 300ms;
 }
 
-.imgdessin img:hover
+.dessinshistoires img:hover
 {
-
+  transform: scale(1.02);
 }
 
 /*************************SECTION ECRITURE****************************************/
@@ -344,19 +338,6 @@ transform: scale(1);
   color: black;
 }
 
-.dessinshistoires
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: 'titrephotovideo';
-}
-
-.dessinshistoires img
-{
-  border: white 7px groove;
-  margin: 5px;
-}
 
 /*****************************SECTION PHOTO***********************************/
 
