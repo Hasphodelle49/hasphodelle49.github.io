@@ -288,12 +288,12 @@ footer
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
 .dessinshistoires img
 {
-  border: white 7px groove;
+  border: black 5px groove;
   margin: 5px;
   transform: scale(1);
   transition-duration: 300ms;
