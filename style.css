@@ -56,26 +56,31 @@
 }
 
 /**************************************HEADER******************************************/
-header
+.banniere
 {
   align-items: center;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
   background-color: #FCE5F0;
-  border: 6px black groove;
-  box-shadow: 0px 10px 30px black;
-  margin: 3px;
+  border: 5px solid;
+
+
 }
 
 header h1
 {
   font-family: 'policetitre42';
-  font-size: 100px;
+  font-size: 80px;
   text-shadow: 0px 3px 3px #E66A8F;
   color: black;
   text-decoration: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.logoheader
+{
+  height: 16em;
 }
 
 /*******************************BODY********************************************/
@@ -173,7 +178,7 @@ footer
 {
 
   height: auto;
-  border-radius: 10px;
+  border-radius: 0px;
   background-color: #FCE5E1;
   position: relative;
   box-shadow: 0px 5px 5px 5px #1c1a19;
@@ -184,7 +189,7 @@ footer
 
   font-family: 'Policedestextes';
   font-size: large;
-  color: #382815;
+  color: black;
 
 }
 
@@ -216,19 +221,6 @@ footer
   padding: 7px;
 }
 
-.imgcoin
-{
-  position: absolute;
-  right: 0;
-  padding-right: 2em;
-}
-
-.imgcoin2
-{
-  position: absolute;
-  left: 0;
-  padding-left: 2em;
-}
 
 /********************************ACCUEIL************************************************************/
 
@@ -254,7 +246,7 @@ footer
 .imgpp
 {
   border: black 7px groove;
-  width: 30em;
+  height: 500px;
   background-color: #FBECF3;
   transform: scale(1);
   transition-duration: 300ms;
@@ -397,9 +389,16 @@ footer
 
 
 /**********************************PAGE JEUX VIDEO*********************************************/
-.jeux
+
+.jeux img
 {
-  
+  border: black 3px ridge;
+}
+
+.Presentationjeu
+{
+  display: flex;
+  justify-content: left;
 }
 
 
