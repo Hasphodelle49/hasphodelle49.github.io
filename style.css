@@ -6,12 +6,6 @@
       font-style: normal;
 }
 
-@font-face {
-      font-family: 'policedelien';
-      src: url('web_fonts/BLACKR-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-}
 
 @font-face {
       font-family: 'titrephotovideo';
@@ -20,12 +14,6 @@
       font-style: normal;
 }
 
-@font-face {
-      font-family: 'policedutitre4';
-      src: url('web_fonts/rothenbg-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-}
 
 @font-face {
       font-family: 'policeparagraphes';
@@ -34,12 +22,6 @@
       font-style: normal;
 }
 
-@font-face {
-      font-family: 'Policedestextes';
-      src: url('web_fonts/RockfordSans-Light.woff');
-      font-weight: normal;
-      font-style: normal;
-}
 
 @font-face {
       font-family: 'policetitre42';
@@ -55,22 +37,19 @@
       font-style: normal;
 }
 
-/**************************************HEADER******************************************/
+
+/**************************************HEADER**************************************************************************************/
 .banniere
 {
   align-items: center;
   display: flex;
-  justify-content: center;
-  background-color: #FCE5F0;
-  border: 5px solid;
-
-
+  justify-content: left;
 }
 
 header h1
 {
   font-family: 'policetitre42';
-  font-size: 80px;
+  font-size: 65px;
   text-shadow: 0px 3px 3px #E66A8F;
   color: black;
   text-decoration: none;
@@ -80,33 +59,36 @@ header h1
 
 .logoheader
 {
-  height: 16em;
+  height: 10em;
 }
 
-/*******************************BODY********************************************/
+/*******************************BODY*******************************************/
 
-.bruh
+body
 {
-  background-image: url('images/husky.png');
-  background-attachment: fixed;
+  background-color: #FCE5F0;
+  margin: 0;
+  padding: 0;
 }
 
-/******************************NAVIGATION***************************************/
+
+/******************************NAVIGATION*****************************************************************************************/
 
 nav
 {
-color: black;
-text-align: center;
-font-size: 30px;
-font-family: 'policedelien';
-display: flex;
-justify-content: space-around;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'policedutitre';
 
-border: 0px black solid;
-margin-left: 10%;
-margin-right: 10%;
-box-shadow: 0px 6px 6px black;
-border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
 }
 
 nav a:hover
@@ -120,16 +102,13 @@ nav a
   text-decoration: none;
 }
 
-/*********************************CARACTERISTIQUES DES TITRES Trucs*********************************************/
+/*********************************CARACTERISTIQUES DES TITRES Trucs**************************************************************/
 
-h1
+.titrepage
 {
   font-family: 'policedutitre';
   color: black;
-  text-shadow: 0px 3px 3px #E66A8F;
-  font-size: 3.5em;
-  font-style: normal;
-  text-decoration: none;
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -138,154 +117,184 @@ h2
   text-align: left;
   font-family: 'policedutitre';
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   font-style: normal;
 }
 
-.h2projets
-{
-  text-align: center;
-}
 
 ul
 {
   font-family: 'policeparagraphes';
 }
 
-/*******************************************FOOTER************************************************/
+h4
+{
+  font-family: 'policedutitre';
+}
+
+/*******************************************FOOTER*****************************************************************************/
 
 footer
 {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  margin: 5px;
-
-  background-color: #FCE5F0;
-  border: 6px black groove;
-  box-shadow: 0px 10px 30px black;
+  border-top: 2px black solid;
 }
 
+footer img
+{
+  height: 80px;
+}
 
+/**************************************CLASSES TOUTES PAGES***************************************************************************/
 
-/**************************************CLASSES TOUTES PAGES******************************************/
 .pageactuelle
 {
   color: #F02AE2;
 }
 
-.corpspage
+.introduction
 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  height: auto;
-  border-radius: 0px;
-  background-color: #FCE5E1;
-  position: relative;
-  box-shadow: 0px 5px 5px 5px #1c1a19;
-
-  margin: 2% 5% 2% 5%;
-
-  padding: 1%;
-
-  font-family: 'Policedestextes';
-  font-size: large;
+  font-family: 'policedutitre';
+  font-size: medium;
   color: black;
+  text-align: center;
 
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.corpspage a
+.introduction a
 {
   color: #C755EB;
   text-decoration: none;
 }
 
-.corpspage a:hover
+.introduction a:hover
 {
   text-shadow: 0px 3px 3px white;
 }
 
+/********************************ACCUEIL*****************************************************************************************/
+
+.cequevoustrouverez
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.cubelienaccueil
+{
+  border: solid 2px black;
+  border-radius: 10px;
+  width: 300px;
+  height: 170px;
+}
+
+.cubelienaccueil img
+{
+  height: 80px;
+}
+
+.margincube
+{
+  margin: 20px;
+}
+
+.cequevoustrouverez a
+{
+  margin : 50px;
+  text-decoration: none;
+}
+
+.cequevoustrouverez a:hover
+{
+  box-shadow: 6px 6px 6px black;
+  border-radius: 10px;
+}
+
+.cequevoustrouverez p
+{
+  font-size: 1.8em;
+  font-family: 'policedutitre';
+  color: black;
+}
+/******************************PAGE PROJETS HOBBYS*********************************************************************************/
+
+.barre
+{
+  border: black 3px solid
+}
+
+.corpspageprojets
+{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.corpspageprojets a
+{
+  color: #C755EB;
+  text-decoration: none;
+}
+
+.corpspageprojets a:hover
+{
+  text-shadow: 0px 3px 3px white;
+}
+
+.corpspageprojets h2
+{
+  text-align: center;
+}
+.corpspageprojets p,h3
+{
+  font-family: 'policedutitre';
+}
 .lieninterpage
 {
-  font-family: 'policedelien';
-  font-size: 25px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
 
-  border-bottom: black 5px double;
-  display: flex;
-  justify-content: space-around;
-}
-
-.introductionpage
-{
-  text-align: center;
-  border-bottom: black 5px double;
-  padding: 7px;
-}
-
-
-/********************************ACCUEIL************************************************************/
-
-#labio
-{
-  text-align: left;
-}
-
-.warning
-{
-  border: red 7px groove;
-  background-color: #94ECF5;
-}
-
-.bio
-{
-  margin: 5%;
   display: flex;
   justify-content: space-around;
 
+  margin-top: 50px;
 }
 
-.imgpp
+.lieninterpage a
 {
-  border: black 7px groove;
-  height: 500px;
-  background-color: #FBECF3;
-  transform: scale(1);
-  transition-duration: 300ms;
- }
-
-.imgpp:hover
-{
-  transform: scale(0.70);
+  font-family: 'policedutitre';
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
 }
 
-.whyweb
+.lieninterpage a:hover
 {
-  border-top: black 5px dotted;
-  border-bottom: black 5px dotted;
-  padding: 7px;
-  text-align: center;
-
-}
-
-/******************************PAGE PROJETS HOBBYS*****************************************************************/
-
-/******************************SECTION DESSINS***************************************/
-.Dessin
-{
-  border-bottom: black 5px dotted;
-  padding: 7px;
+  text-shadow: 0px 3px 3px lime;
 }
 
 .dessinshistoires
 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .dessinshistoires img
 {
-  border: black 5px groove;
+  border: black 2px groove;
   margin: 5px;
   transform: scale(1);
   transition-duration: 300ms;
@@ -296,63 +305,94 @@ footer
   transform: scale(1.02);
 }
 
-/*************************SECTION ECRITURE****************************************/
-
-.textebluebird
+/******************************SECTION DESSINS*********************************/
+.Dessin
 {
-  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.textetrident
+.Dessin img
 {
-  text-align: left;
+  height: 270px;
 }
 
-.bluebird
+
+/*************************SECTION ECRITURE*************************************/
+.Ecriture
 {
-  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.textehistoire h3
+{
+  text-align: left;
+  font-family: 'policehistoires';
+  color: black;
+}
+
+.textehistoire p
+{
+  text-align: left;
+  font-family: 'policehistoires';
+  color: black;
+}
+
+.cadrehistoire
+{
   border: black 3px ridge;
   box-shadow: 6px 6px 6px black;
   margin: 3%;
-  padding: 1%;
+  padding: 3%;
   background-color: white;
   display: flex;
   align-items: center;
 
-  font-family: 'policehistoires';
-  color: black;
 }
 
+/***************************BLUE BIRD******************************************/
 
-.Trident
+.bluebirdblasons img
 {
-  text-align: center;
-  border: black 3px ridge;
-  box-shadow: 6px 6px 6px black;
-  margin: 3%;
-  padding: 1%;
-  background-color: white;
-  display: flex;
-
-  font-family: 'policehistoires';
-  color: black;
+  height: 200px;
 }
 
+.bluebirdpersonnages img
+{
+  height: 400px;
+}
 
-/*****************************SECTION PHOTO***********************************/
+.bluebirdautresdessins img
+{
+  height: 300px;
+}
+
+/*************************LA CHRONIQUE DU TEMPS********************************/
+
+.tempsdessins img
+{
+  height: 300px;
+}
+
+/*****************************SECTION PHOTO*****************************************************************************/
 
 .Photo
 {
-  border-top: black 5px dotted;
-  padding: 7px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-/****************************SECTION PROJETS COMMUNS****************************/
+.photosimg img
+{
+  height: 300px;
+}
+/****************************SECTION PROJETS COMMUNS********************************************************************/
 
 .Projets
 {
-  border-top: black 5px dotted;
-  padding: 7px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .videobluebird
@@ -370,6 +410,9 @@ footer
   border: black 5px ridge;
   border-radius: 10px;
   margin : 1%;
+
+  height: 20em;
+
 }
 
 .celeste
@@ -377,6 +420,9 @@ footer
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .musiquesjeu
@@ -387,8 +433,19 @@ footer
 
 }
 
+.paramusique
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-/**********************************PAGE JEUX VIDEO*********************************************/
+/**********************************PAGE JEUX VIDEO*********************************************************************************/
+
+.corpspagejeux
+{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 .jeux img
 {
@@ -399,7 +456,49 @@ footer
 {
   display: flex;
   justify-content: left;
+  align-items: center;
+
+  width: auto;
+
+  padding: 15px;
+  margin-right: 50%;
+  border:  black 3px solid;
+  background-color: white;
+}
+
+.jeuprésentation
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/*************************************PAGE A PROPOS***********************************************************************************/
+#labio
+{
+  text-align: left;
 }
 
 
-/*************************************PAGE VOYAGES******************************************/
+.bio
+{
+  margin: 50px;
+  display: flex;
+  justify-content: left;
+
+}
+
+.bio img
+{
+  border: black 3px groove;
+  height: 250px;
+  background-color: #FBECF3;
+  transform: scale(1);
+  transition-duration: 300ms;
+  margin: 50px;
+ }
+
+.bio img:hover
+{
+  transform: scale(0.70);
+}
